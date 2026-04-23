@@ -1,0 +1,1 @@
+const s=document.getElementById("scrollTopBtn");s&&(window.addEventListener("scroll",()=>{window.scrollY>300?(s.classList.remove("hidden"),s.classList.add("flex")):(s.classList.add("hidden"),s.classList.remove("flex"))}),s.addEventListener("click",()=>{window.scrollTo({top:0,behavior:"smooth"})}));

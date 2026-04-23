@@ -1,0 +1,1 @@
+import"./hoisted.CsYjnltz.js";document.getElementById("request-form")?.addEventListener("submit",function(r){r.preventDefault(),document.querySelectorAll("#request-form input, #request-form textarea").forEach(e=>{const t=e.nextElementSibling;e.value.trim()?t?.classList.add("hidden"):t?.classList.remove("hidden")})});
